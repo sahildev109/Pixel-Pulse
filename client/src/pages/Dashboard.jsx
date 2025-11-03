@@ -78,7 +78,7 @@ const Dashboard = () => {
   const handleClearSelection = () => {
     setSelectedImages(new Set());
   };
-const avatar=user.avatar
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
