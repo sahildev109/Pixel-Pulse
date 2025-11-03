@@ -1,0 +1,60 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === Logs ===
+logs
+*.log
+logs/*
+debug.log
+error.log
+
+# === Build outputs ===
+dist/
+build/
+.cache/
+.temp/
+
+# === Editor / OS files ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# === Coverage / testing ===
+coverage/
+*.lcov
+jest-html-reporters-*.html
+
+# === Misc ===
+*.tgz
+*.zip
+
+# === React specific ===
+client/node_modules/
+client/dist/
+client/build/
+
+# === Server specific ===
+server/node_modules/
+server/dist/
+
+# === MongoDB related ===
+dump/
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === Others ===
+*.env.*
